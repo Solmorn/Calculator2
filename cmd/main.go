@@ -1,9 +1,10 @@
 package main
 
 import (
-	agent "internal/agent"
-	orch "internal/orch"
 	"time"
+
+	agent "github.com/Solmorn/Calculator2/internal/agent"
+	orch "github.com/Solmorn/Calculator2/internal/orch"
 )
 
 func main() {
@@ -16,4 +17,6 @@ func main() {
 	go func() {
 		agent.Run()
 	}()
+
+	select {}
 }
