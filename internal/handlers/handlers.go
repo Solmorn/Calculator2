@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/Solmorn/Calculator2/internal/patterns"
-	calculator "github.com/Solmorn/Calculator2/pkg"
+	calculator "github.com/Solmorn/Calculator2/pkg/calculator"
 )
 
 var (
